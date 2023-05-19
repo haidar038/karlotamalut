@@ -1,0 +1,12 @@
+body {
+    background-image: url("../img/bg2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url("../img/bg.svg");
+        background-position: 0 -3rem;
+    }
+}
