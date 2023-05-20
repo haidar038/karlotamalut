@@ -67,12 +67,8 @@ fetch("/assets/api/tte-indo.json")
                 for (let j = 0; j < rows.length; j++) {
                     let row = rows[j];
                     let kata = row.querySelector("td:first-child").textContent.toLowerCase();
-                    let arti = row.querySelector(".arti").textContent.toLowerCase();
 
                     if (kata.includes(searchTerm)) {
-                        row.style.display = "table-row";
-                        hasMatch = true;
-                    } else if (arti.includes(searchTerm)) {
                         row.style.display = "table-row";
                         hasMatch = true;
                     } else {
