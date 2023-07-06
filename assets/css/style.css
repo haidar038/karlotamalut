@@ -106,7 +106,7 @@ span {
 
 @media (min-width: 768px) {
     .header {
-        margin-bottom: 4rem;
+        margin-bottom: 6rem;
     }
 
     .kamus .card {
@@ -121,5 +121,9 @@ span {
 @media (max-width: 767.9px) {
     .topp-bg {
         display: none;
+    }
+
+    .header {
+        margin-bottom: 4rem;
     }
 }
