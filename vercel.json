@@ -6,7 +6,7 @@
     { "source": "/indo-tte", "destination": "/indo-tte.html" },
     { "source": "/tte-indo", "destination": "/tte-indo.html" },
     { "source": "/karya", "destination": "/karya.html" },
-    { "source": "/productshop", "destination": "/productshop.html" },
+    { "source": "/belanja", "destination": "/belanja.html" },
     { "source": "/tourism", "destination": "/tourism.html" }
   ]
 }
